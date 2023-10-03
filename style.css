@@ -1,0 +1,52 @@
+img {
+ display: none;
+ border: solid 10px;
+ border-radius: 50px;
+}
+h1 {
+ color: brown;
+ border: solid 10px green;
+ border-radius: 10px;
+ font-family: Times New Roman;
+}
+.button {
+border: solid 5px;
+font-family: Times New Roman;
+font-weight: bold;
+border-radius: 50px;
+}
+#UpgradesPopup {
+position: fixed;
+width: 325px;
+height: 550px;
+background: Orange;
+border: solid 10px Green;
+border-radius: 20px;
+padding: 10px;
+margin: auto;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+z-index: 10;
+display: none;
+}
+p {
+ font-size: 10px;
+}
+#TipsPopup {
+position: fixed;
+width: 325px;
+height: 550px;
+background: Yellow;
+border: solid 10px Purple;
+border-radius: 20px;
+padding: 10px;
+margin: auto;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+z-index: 10;
+display: block;
+}
